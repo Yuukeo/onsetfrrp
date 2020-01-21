@@ -78,7 +78,7 @@ The parameter "--version" displays server version information. The compatibility
 
 ## Command line arguments
 The parameter "--help" displays available command line options.
-![alt text](https://dev.playonset.com/images/7/7e/ServerCommandlineHelp.PNG)
+![alt text](https://dev.playonset.com/images/2/2d/ServerCommandlineHelp.PNG)
 
 
 ## Network Ports
