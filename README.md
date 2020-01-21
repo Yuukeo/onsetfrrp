@@ -1,5 +1,5 @@
 # ONSET FRENCH ROLEPLAY
-
+![alt_text](https://dev.playonset.com/images/e/ec/OnsetDeveloperWiki.png "Logo OnSet Dev Wiki")
 ## Windows Server
 ### Minimum requirements
 Development: Windows 10
@@ -74,12 +74,12 @@ Packages make up all of your server. Please see this wiki entry (packages) on ho
 ## Game Compatibility Version Number
 The parameter "--version" displays server version information. The compatibility number determines what clients can connect. Game and server must have the same compatibility number for the connection to succeed. The version number does not matter in this case.
 
-ServerCommandlineVersion.PNG
+![alt text](https://dev.playonset.com/images/7/7e/ServerCommandlineVersion.PNG)
 
 ## Command line arguments
 The parameter "--help" displays available command line options.
+![alt text](https://dev.playonset.com/images/7/7e/ServerCommandlineHelp.PNG)
 
-ServerCommandlineHelp.PNG
 
 ## Network Ports
 The dedicated server requires 3 network ports to be open.
