@@ -1,11 +1,12 @@
 # ONSET FRENCH ROLEPLAY
+
 ## Windows Server
 ### Minimum requirements
-@Development: Windows 10
+Development: Windows 10
 Production: Windows Server 2012 or later
 Single core processor with SSE2 instructions
 50 MB disk space and 100 MB RAM
-Setup
+### Setup
 Download steamcmd as described on this page: https://developer.valvesoftware.com/wiki/SteamCMD#Windows
 
 Open a Command Window (cmd.exe) and navigate to your steamcmd folder. Run steamcmd.exe
@@ -25,10 +26,10 @@ Exit SteamCMD
 quit
 
 
-Linux Server
+## Linux Server
 We recommend Linux for production servers.
 
-Minimum requirements
+### Minimum requirements
 Ubuntu 18.04, Debian 9 (with openssl installed)
 Single core processor with SSE2 instructions
 50 MB disk space and 100 MB RAM
@@ -59,7 +60,7 @@ app_update 1204170 validate
 Exit SteamCMD
 quit
 
-Configuration
+### Configuration
 cd OnsetServer
 
 Edit the server_config.json file nano server_config.json. Info on the config file: server_config.
@@ -67,20 +68,20 @@ nano server_config.json
 
 Once you are done with editing press CTRL+X and then Y to save the config file.
 Run ./start_linux.sh to start your server. The shell file sets the environment path so the server finds the required SteamAPI files.
-Gamemode Packages
+## Gamemode Packages
 Packages make up all of your server. Please see this wiki entry (packages) on how to get started with them.
 
-Game Compatibility Version Number
+## Game Compatibility Version Number
 The parameter "--version" displays server version information. The compatibility number determines what clients can connect. Game and server must have the same compatibility number for the connection to succeed. The version number does not matter in this case.
 
 ServerCommandlineVersion.PNG
 
-Command line arguments
+## Command line arguments
 The parameter "--help" displays available command line options.
 
 ServerCommandlineHelp.PNG
 
-Network Ports
+## Network Ports
 The dedicated server requires 3 network ports to be open.
 
 UDP 7777 - Game
